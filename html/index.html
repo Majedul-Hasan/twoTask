@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Tasl one</title>
+   <style>
+      .grid{
+         display:grid;
+         grid-gap: 4px 3px;
+         grid-template-columns: repeat(54, auto);
+         /* grid-template-rows: minmax(120px, auto) repeat(4, 100px); */
+         grid-template-rows: repeat(4, auto);
+         padding: 0 40px;
+         text-align: center;
+         margin-left: 15%;
+         margin-right: 15%;
+      }
+
+      .bg__megenta{
+         background-color: pink;
+         height: 50px;
+
+      }
+       .bg__red{
+         background-color: red;
+         height: 50px;
+
+      } 
+      .span-4{
+         grid-column: span 4;
+      }
+      .span-6{
+         grid-column: span 6;
+      }
+       .span-8{
+         grid-column: span 8;
+      }
+      
+      .span-9{
+         grid-column: span 9;
+      }
+      .span-12{
+         grid-column: span 12;
+      }
+      .span-18{
+         grid-column: span 18;
+      }
+      .span-17{
+         grid-column: span 17;
+      }
+      .span-10{
+         grid-column: span 10;
+      }
+     
+   </style>
+</head>
+<body>
+   <div class="grid ">
+      <div class="bg__red span-6" >1</div>
+      <div class="bg__red span-4" >2</div>
+      <div class="bg__red span-8" >3</div>
+      <div class="bg__red span-6" >4</div>
+      <div class="bg__red span-4" >5</div>
+      <div class="bg__red span-8" >6</div>
+      <div class="bg__red span-4" >7</div>
+      <div class="bg__red span-6" >8</div>
+      <div class="bg__red span-8" >9</div>
+      <div class="bg__red span-12" >10</div>
+      <div class="bg__megenta span-8"  >upercase</div>
+      <div class="bg__megenta span-8"  >A</div>
+      <div class="bg__megenta span-8"  >B</div>
+      <div class="bg__megenta span-8"  >C</div>
+      <div class="bg__megenta span-4"  >D</div>
+      <div class="bg__megenta span-6"  >E</div>
+      <div class="bg__megenta span-17"  >F</div>
+      <div class="bg__megenta span-10"  >G</div>
+      <div class="bg__megenta span-10"  >H</div>
+      <div class="bg__megenta span-17"  >I</div>
+      <div class="bg__megenta span-18"  >J</div>
+      <div class="bg__megenta span-18"  >K</div>
+      <div class="bg__megenta span-18"  >L</div>
+   </div>
+   
+</body>
+</html>
